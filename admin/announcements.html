@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="CORN FREE — Towards a Safer, Cleaner Internet. An independent international digital safety campaign.">
+<meta name="robots" content="noindex, nofollow">
+<title>CORN FREE Admin</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<meta name="theme-color" content="#07121f">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-title="a_announcements" data-page="announcements">
+<div class="admin"><aside id="admin-nav"></aside><main id="main" class="admin-main">
+<h1 data-i18n="a_announcements"></h1><form id="annForm" class="panel"><input type="hidden" name="id"><div class="cols"><div class="field"><label><span data-i18n="f_title"></span> <small>EN</small><input name="title_en" type="text" maxlength="150"></label><span class="err" data-err="title_en"></span></div><div class="field"><label><span data-i18n="f_title"></span> <small>AR</small><input name="title_ar" type="text" dir="rtl" maxlength="150"></label><span class="err" data-err="title_ar"></span></div><div class="field"><label><span data-i18n="f_message"></span> <small>EN</small><textarea name="message_en" rows="3" maxlength="600"></textarea></label><span class="err" data-err="message_en"></span></div><div class="field"><label><span data-i18n="f_message"></span> <small>AR</small><textarea name="message_ar" rows="3" dir="rtl" maxlength="600"></textarea></label><span class="err" data-err="message_ar"></span></div><div class="field"><label><span data-i18n="f_type"></span><select name="type"><option value="info" data-i18n="ty_info"></option><option value="attention" data-i18n="ty_attention"></option><option value="warning" data-i18n="ty_warning"></option><option value="success" data-i18n="ty_success"></option></select></label><span class="err" data-err="type"></span></div><div class="field"><label><span data-i18n="f_cta_text"></span> <small>EN</small><input name="cta_text_en" type="text" maxlength="60"></label><span class="err" data-err="cta_text_en"></span></div><div class="field"><label><span data-i18n="f_cta_text"></span> <small>AR</small><input name="cta_text_ar" type="text" dir="rtl" maxlength="60"></label><span class="err" data-err="cta_text_ar"></span></div><div class="field"><label><span data-i18n="f_cta_url"></span><input name="cta_url" type="text" maxlength="500"></label><span class="err" data-err="cta_url"></span></div><div class="field"><label><span data-i18n="f_starts"></span><input name="starts_at" type="datetime-local"></label><span class="err" data-err="starts_at"></span></div><div class="field"><label><span data-i18n="f_expires"></span><input name="expires_at" type="datetime-local"></label><span class="err" data-err="expires_at"></span></div><div class="field"><label><span data-i18n="f_priority"></span><input name="priority" type="number" value="0" min="-1000" max="1000"></label><span class="err" data-err="priority"></span></div></div><div class="field chk"><label><input type="checkbox" name="is_active" checked> <span data-i18n="f_active"></span></label></div><button class="btn" type="submit" data-i18n="a_save"></button> <button class="btn alt" type="reset" data-i18n="a_cancel"></button></form><div class="tbl-wrap"><table class="tbl"><thead><tr><th data-i18n="th_title"></th><th data-i18n="f_type"></th><th data-i18n="th_status"></th><th data-i18n="th_window"></th><th data-i18n="th_priority"></th><th data-i18n="a_actions"></th></tr></thead><tbody id="rows"></tbody></table></div>
+</main></div>
+<script src="../assets/js/config.js"></script>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/api.js"></script>
+<script src="../assets/js/admin.js"></script>
+</body>
+</html>

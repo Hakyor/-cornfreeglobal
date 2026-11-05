@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="CORN FREE — Towards a Safer, Cleaner Internet. An independent international digital safety campaign.">
+<meta name="robots" content="noindex, nofollow">
+<title>CORN FREE Admin</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<meta name="theme-color" content="#07121f">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-title="a_blog" data-page="blog">
+<div class="admin"><aside id="admin-nav"></aside><main id="main" class="admin-main">
+<div class="row"><h1 data-i18n="a_blog"></h1><a class="btn" href="posts-editor.html" data-i18n="a_new_post"></a></div><form id="filters" class="filters"><input id="q" type="search" maxlength="100" data-i18n-ph="search_btn"><select id="status"><option value="" data-i18n="a_all"></option><option value="published" data-i18n="st_published"></option><option value="draft" data-i18n="st_draft"></option></select><button class="btn" type="submit" data-i18n="search_btn"></button></form>
+<div class="tbl-wrap"><table class="tbl"><thead><tr><th data-i18n="th_title"></th><th data-i18n="th_status"></th><th data-i18n="th_cat"></th><th data-i18n="th_updated"></th><th data-i18n="a_actions"></th></tr></thead><tbody id="rows"></tbody></table></div><div id="pager" class="pager"></div>
+<div class="panel" style="margin-top:32px"><h2 data-i18n="a_categories"></h2><form id="catForm"><input type="hidden" name="id"><div class="cols"><div class="field"><label><span data-i18n="f_slug"></span><input name="slug" type="text" maxlength="80"></label><span class="err" data-err="slug"></span></div><div class="field"><label><span data-i18n="f_name"></span> <small>EN</small><input name="name_en" type="text" maxlength="80"></label><span class="err" data-err="name_en"></span></div><div class="field"><label><span data-i18n="f_name"></span> <small>AR</small><input name="name_ar" type="text" dir="rtl" maxlength="80"></label><span class="err" data-err="name_ar"></span></div></div><button class="btn" type="submit" data-i18n="a_save"></button> <button class="btn alt" type="reset" data-i18n="a_cancel"></button></form><div class="tbl-wrap" style="margin-top:16px"><table class="tbl"><thead><tr><th data-i18n="f_slug"></th><th>EN</th><th>AR</th><th data-i18n="a_actions"></th></tr></thead><tbody id="cats"></tbody></table></div></div>
+</main></div>
+<script src="../assets/js/config.js"></script>
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/api.js"></script>
+<script src="../assets/js/admin.js"></script>
+</body>
+</html>
